@@ -83,6 +83,14 @@ function App() {
             </AppLayout>
           }
         />
+         <Route
+          path="/Customers"
+          element={
+            <AppLayout layoutType="sidebarOnly">
+              <Customers />
+            </AppLayout>
+          }
+        />
       </Routes>
     </Router>
   );

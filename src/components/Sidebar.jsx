@@ -67,7 +67,7 @@ const Sidebar = () => {
   const sidebarLinks = [
     { route: '/', icon: UilDashboard, heading: 'Dashboard' },
     { route: '/Orders', icon: UilUsersAlt, heading: 'Orders' },
-    // { route: '/Customers', icon: UilChart, heading: 'Customers' },
+    { route: '/Customers', icon: UilChart, heading: 'Customers' },
     { route: '/Products', icon: UilChart, heading: 'Products' },
     { route: '/Login', icon: UilChart, heading: 'Login' },
   ];
